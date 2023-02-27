@@ -11,7 +11,7 @@ gem install bundler
 ```
 Сделайте клон репозитория:
 ```
-
+git clone https://github.com/lordsynergy/Film_for_the_evening.git
 ```
 Находясь в папке программы установите библиотеки:
 ```
