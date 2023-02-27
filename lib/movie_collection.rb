@@ -15,7 +15,7 @@ class MovieCollection
     end
 
     movies =
-      document.xpath('//tr')[1..].map do |element|
+      document.xpath('//tr')[1..250].map do |element|
         node = element.xpath('td')
         Movie.new(node[1].text, node[3].text.split('(')[0], node[2].text.to_i)
       end
